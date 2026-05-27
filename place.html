@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nigeria Country Page</title>
+
+  <meta name="description" content="Explore Nigeria with culture, weather, landmarks, and beautiful responsive web design.">
+
+  <meta name="author" content="Sydney Sobomabo">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Nigeria</h1>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <picture>
+        <source srcset="images/lagos 1200.webp" media="(min-width: 768px)">
+        <img src="images/Lagosstateskyline 600.webp" alt="Beautiful city view of Lagos Nigeria">
+      </picture>
+    </section>
+
+    <section class="info">
+      <h2>Data</h2>
+
+      <p><strong>Area:</strong> 923,769 sq km</p>
+      <p><strong>Population:</strong> 223 Million+</p>
+      <p><strong>Capital:</strong> Abuja</p>
+      <p><strong>Languages:</strong> English, Hausa, Yoruba, Igbo</p>
+      <p><strong>Currency:</strong> Naira</p>
+      <p><strong>Time Zone:</strong> UTC +1</p>
+      <p><strong>Calling Code:</strong> +234</p>
+      <p><strong>Internet TLD:</strong> .ng</p>
+    </section>
+
+    <section class="weather">
+      <h2>Weather</h2>
+
+      <img src="images/weather.svg" alt="Weather Icon" class="weather-icon">
+
+      <p><strong>Temperature:</strong> <span id="temp">8</span>°C</p>
+
+      <p><strong>Wind Speed:</strong> <span id="speed">10</span> km/h</p>
+
+      <p><strong>Conditions:</strong> Cloudy</p>
+
+      <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      © <span id="year"></span> | Sydney Sobomabo | Nigeria
+    </p>
+
+    <p id="lastModified"></p>
+  </footer>
+
+</body>
+</html>
